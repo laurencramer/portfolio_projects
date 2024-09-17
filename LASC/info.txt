@@ -1,0 +1,56 @@
+I would like help creating a simple, yet unique and visually appealing, portfolio/personal website. This website is going to showcase my UI design work from both college and professional. I also want to showcase my programing projects. 
+A little info about me. My name is Lauren Cramer. I live in Los Angeles, CA. I went to the University of California, Irvine for Informatics with a specialization in Human Computer Interaction
+
+
+
+Overview
+This Python script was developed for the LA Superior Court while I was serving as a Computer & Systems Support Analyst. The primary goal of this script was to process and analyze data from an Excel file used to track user activities, including identifying users, their associated machines, and the last time they logged in.
+
+Key Features
+Data Extraction:
+
+Tools Used: pandas for reading and manipulating Excel data.
+Extracts user and machine information from the specified Excel file. The script reads data from designated columns and organizes it for further processing.
+Data Processing:
+
+Languages and Tools Used: Python, re for regular expression matching, and datetime for date and time handling.
+Functions process and filter data to identify users and their machines based on login timestamps. This includes extracting relevant substrings and validating data accuracy.
+Data Formatting:
+
+Tools Used: Python's built-in csv module for writing data to CSV files.
+Formats the extracted and processed data into a structured CSV file. The data includes user identifiers, machine details, and the most recent login times, formatted for easy review and reporting.
+Privacy Considerations:
+
+Variables and functions in the script have been updated to use more generic names to ensure privacy and security.
+Specific details such as file paths and identifiers have been redacted or anonymized to protect sensitive information.
+User Interaction:
+
+The script interacts with the user to determine the file paths and handle different file locations based on user input.
+Provides console feedback, including timestamps and status updates, to track the script's progress.
+Workflow
+User Input:
+
+The script prompts the user to provide file paths and other necessary information, ensuring it operates on the correct dataset.
+Data Extraction:
+
+Uses pandas to extract user, machine, and login timestamp data from the specified Excel file.
+Processing and Matching:
+
+Applies functions to process the data, including extracting relevant substrings and filtering based on the most recent login timestamps.
+Formatting and Output:
+
+Formats the processed data into a CSV file. The output includes user names, associated machines, and the latest login timestamps, structured for ease of analysis.
+Status Updates:
+
+Provides real-time feedback through the console to keep the user informed about the script's execution status.
+Technologies and Tools Used
+Programming Language: Python
+Libraries and Modules:
+pandas for data manipulation and extraction from Excel files.
+re for regular expression operations.
+datetime for handling date and time.
+csv for writing data to CSV files.
+Excel Files: Managed through openpyxl engine in pandas.
+Context and Usage
+Developed for the LA Superior Court, this script was designed to manage and analyze user and machine data from a specific Excel file. It supports the identification of users, their machines, and tracking their last login times, providing valuable insights for system administrators. For privacy reasons, the script has been adjusted to use generic variables and redacted sensitive file paths.
+
